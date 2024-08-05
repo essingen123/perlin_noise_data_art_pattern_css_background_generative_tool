@@ -14,7 +14,7 @@ set303b=perlin_noise_data_art_pattern_css_background_generative_tool
 set303c=public
 
 # auto generate HTML page, y for yes and n for no
-set303d=y
+set303d=n
 
 # tags, separated by commas
 set303e=Perlin noise, Generative, Art code
