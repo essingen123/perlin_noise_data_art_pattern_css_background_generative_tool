@@ -1,4 +1,6 @@
+import subprocess
 
+readme_content = """
 # 2D Perlin Noise Metal Surface
 
 A mesmerizing installation that showcases the beauty of Perlin noise, a pioneering algorithm that generates natural-looking patterns and textures.
@@ -20,4 +22,10 @@ Click the "[DOWNLOAD CSS INC. MIME IMG DATA]" link to download the CSS file cont
 
 ## Experience the Emergence
 Step into the world of Perlin noise and discover the beauty that lies at the intersection of chaos and order. Let the hypnotic rhythms of this installation wash over you and explore the infinite variability of the natural world.
+"""
 
+with open("README.md", "w") as f:
+    f.write(readme_content)
+
+# Alternatively, using subprocess
+subprocess.run(["echo", readme_content], stdout=open("README.md", "w"))
