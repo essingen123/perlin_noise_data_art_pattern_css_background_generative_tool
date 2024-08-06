@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="some_perlin_graphics.gif" alt="Some perlin noise graphics">
+</p>
 
 # 2D Perlin Noise Metal Surface
 
